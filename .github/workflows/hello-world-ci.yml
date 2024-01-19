@@ -13,7 +13,7 @@ jobs:
 
       - name: Run my own container action
         id: hello-action
-        uses: ./hello-world-ci
+        uses: hello-world-ci
         with:
           who-to-greet: 'Wouter'
 
